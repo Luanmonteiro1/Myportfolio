@@ -1,0 +1,8 @@
+@import "./global.css";
+@import "./reset.css";
+@import "./typography.css";
+@import "./grid.css";
+
+body{
+    background-color: #0C0C0C;
+}
