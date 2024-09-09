@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.card li {
+    height: 5.125rem;
+    border: 1px solid white;
+    border-radius: 1.5625rem;
+    display: flex;
+    align-items: center;
+}
+.card li:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.cardTech{
+    padding: 1.25rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: .625rem;
+}
+
+.cardTech > div {
+    display: flex;
+    gap: 1.25rem;
+    padding-left: 1.25rem;
+}
+.host{
+    margin-top: 50px;
+}

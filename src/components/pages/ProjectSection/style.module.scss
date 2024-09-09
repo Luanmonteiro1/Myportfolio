@@ -1,0 +1,22 @@
+.listProjects{
+    width: 100%;
+    margin: 20px;
+    overflow-x: scroll;
+    display: flex;
+    gap: .625rem;
+
+    @media (max-width: 699px) {
+        li{
+          min-width: 240px;
+        }
+      }
+      @media (min-width: 700px) {
+        overflow-x: unset;
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+      }
+      @media (min-width: 1000px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    
+}

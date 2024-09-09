@@ -1,0 +1,29 @@
+.listProjects{ 
+    width: 100%;
+    height: 21.625rem;
+    border: 2px solid #ffff;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.navCard{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentCard{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listProjects:hover{
+    border: 2px solid red;
+    
+}

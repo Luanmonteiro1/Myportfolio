@@ -1,5 +1,4 @@
-import Vector from "../../../assets/myIcon.png";
-import { Header } from "../../HeaderSection";
+import Vector from "../../../assets/vector.png";
 import styles from "./style.module.css";
 
 export const HomePage = () => {
@@ -14,7 +13,7 @@ export const HomePage = () => {
           <button>Linkedin</button>
           <button>Donwload cv</button>
         </div>
-        <div>
+        <div className={styles.vector}>
           <img src={Vector} alt="" />
         </div>
       </div>

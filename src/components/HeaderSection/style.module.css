@@ -12,3 +12,11 @@ nav > a {
     color: var(--color-white-text);
     font-family: var(--font-primary);
 }
+header > img {
+    width: 4.4188rem;
+    height: .8669rem;
+}
+.headerInfos > img{
+    width: 2.5rem;
+    height: 30px;
+}

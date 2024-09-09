@@ -1,0 +1,10 @@
+.itensList {
+    display: flex;
+    align-items: center;
+    padding-left: 1.875rem;
+    gap: .625rem;
+}
+
+.itensList > img {
+    width: 24px;
+}
