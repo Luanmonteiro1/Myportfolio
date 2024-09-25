@@ -6,7 +6,7 @@ import { TechCard } from "./TechList";
 export const TechSection = () => {
     return (
       <section className="container">
-        <div className={styles.host}>
+        <div className={`${styles.host} animate__animated animate__backInLeft`}>
           <h2 className="tittle2">Tecnológias</h2>
           <ul className={styles.card}>
             <div className={`tittle3 ${styles.cardTech}`}>

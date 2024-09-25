@@ -1,14 +1,14 @@
-import nuK from "../assets/nuBank.jpg"
-import kHub from "../assets/kHub.jpg"
-import hBurguer from "../assets/hBurguer.jpg"
-
+import nuK from "../assets/nuBank.png"
+import kHub from "../assets/kHub.png"
+import hBurguer from "../assets/hBurguer.png"
+import fashionV from "../assets/fashionV.png"
 
 export const projects = [
     {
         id: 0,
         img: nuK,
         name: "NuKenzie",
-        description: "Saiba mais",
+        description: "Controle de gastos",
         link: "https://nukenzie-luan-monteiro1.vercel.app",
         gitLink: "https://github.com/Kenzie-Academy-Brasil-Developers/Nukenzie-LuanMonteiro1"
     },
@@ -16,7 +16,7 @@ export const projects = [
         id: 1,
         img: kHub,
         name: "KHub",
-        description: "Saiba mais",
+        description: "Site de cadastro",
         link: "https://kenziehub-luan-zeta.vercel.app",
         gitLink: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenziehub-Luan"
     },
@@ -24,15 +24,16 @@ export const projects = [
         id:2,
         img: hBurguer,
         name: "Hamburgueria",
-        description: "Saiba mais",
+        description: "Hamburgueria online",
         link: "https://hamburgueria-luan1-nine.vercel.app",
         gitLink: "https://github.com/Kenzie-Academy-Brasil-Developers/hamburgueria-Luan1"
     },
     {
         id:3,
-        name: "",
-        description: "Saiba mais",
-        link: "...",
+        img: fashionV,
+        name: "FashionK",
+        description: "Loja e-comerce",
+        link: "https://grupo7-fashion-store-two.vercel.app/",
         gitLink: ""
     },
     {

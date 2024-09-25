@@ -5,14 +5,22 @@
     margin-top: 50px;
 }
 
-.teste{
+.boxInfo{
     display: flex;
     align-items: center;
     gap: 6.625rem;
     
 }
 
-.teste > img{
-    width: 400px;
+.boxInfo > img{
+    width: 25rem;
 }
+
+@media (max-width: 800px) {
+    .boxInfo {
+      flex-direction: column;  
+      width: 100%;
+    }
+  }
+  
 

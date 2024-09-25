@@ -8,7 +8,9 @@ import postsqlIcon from "../assets/postgresql-icon.png"
 import typesIcon from "../assets/typescript-icon.png"
 import pythonIcon from "../assets/python-icon.png"
 import prismaIcon from "../assets/prisma-icon.png"
-
+import dBeaverIcon from "../assets/dBeaver-icon.png"
+import insoMicon from "../assets/insom-icon.png"
+import figmaIcon from "../assets/figma-icon.png"
 
 export const technologies = [
     { id:0, name: "HTML", img: htmlIcon },
@@ -20,5 +22,8 @@ export const technologies = [
     { id:6, name: "PostgreSql", img: postsqlIcon},
     { id:7, name: "TypeScript", img: typesIcon },
     { id:8, name: "Python", img: pythonIcon },
-    { id:9, name: "Prisma", img: prismaIcon}
+    { id:9, name: "Prisma", img: prismaIcon},
+    { id:10, name: "DBeaver", img: dBeaverIcon},
+    { id:11, name: "Insomnia", img: insoMicon},
+    { id:12, name: "Figma", img: figmaIcon}
 ]

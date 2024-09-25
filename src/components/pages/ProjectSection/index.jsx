@@ -8,7 +8,7 @@ export const ProjectSection = () => {
 
   return (
     <section id="projetos" className="container">
-      <div>
+      <div className="animate__animated animate__backInLeft">
         <h2 className="tittle2">Projetos</h2>
         <ul className={styles.listProjects}>
           {projects.map((project) => {

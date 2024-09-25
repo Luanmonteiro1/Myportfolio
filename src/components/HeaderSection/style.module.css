@@ -1,6 +1,56 @@
 .headerInfos{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.menuButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--color-white-text); 
+}
+.mobileNav {
+    display: none;
+}
+@media (max-width: 768px) {
+    .nav {
+        display: none; 
+        flex-direction: column;
+        position: fixed; 
+        top: 0; 
+        right: 0;
+        left: 0;
+        border-radius: 5px;
+        background:black;
+        margin-top: 30px; 
+        padding: 2rem; 
+        z-index: 100; 
+    }
+    .nav.active {
+        display: flex; 
+    }
+
+    .menuButton {
+        display: block; 
+    }
+}
+
+@media (min-width: 769px) {
+    .menuButton {
+        display: none; 
+    }
+
+    .nav {
+        display: flex; 
+        position: relative;
+        top: auto; 
+        right: auto;
+        bottom: auto;
+        left: auto;
+        background: transparent; 
+    }
 }
 
 nav{
@@ -12,6 +62,11 @@ nav > a {
     color: var(--color-white-text);
     font-family: var(--font-primary);
 }
+nav > a:hover {
+    color: rgb(141, 37, 37);
+
+}
+
 header > img {
     width: 4.4188rem;
     height: .8669rem;
@@ -20,3 +75,9 @@ header > img {
     width: 2.5rem;
     height: 30px;
 }
+header{
+    z-index: 101;
+    position: relative;
+}
+
+
