@@ -2,6 +2,9 @@ import nuK from "../assets/nuBank.png"
 import kHub from "../assets/kHub.png"
 import hBurguer from "../assets/hBurguer.png"
 import fashionV from "../assets/fashionV.png"
+import insertF from "../assets/insert.png"
+import pokedD from "../assets/pokeD.png"
+
 
 export const projects = [
     {
@@ -16,7 +19,7 @@ export const projects = [
         id: 1,
         img: kHub,
         name: "KHub",
-        description: "Site de cadastro",
+        description: "Site de cadastro completo ",
         link: "https://kenziehub-luan-zeta.vercel.app",
         gitLink: "https://github.com/Kenzie-Academy-Brasil-Developers/Kenziehub-Luan"
     },
@@ -38,10 +41,19 @@ export const projects = [
     },
     {
         id:4,
-        name: "",
-        description: "Saiba mais",
-        link: "...",
-        gitLink: ""
+        name: "CRUD",
+        img: insertF,
+        description: "Controle de funcionários",
+        link: "https://crud-wine-zeta.vercel.app/",
+        gitLink: "https://github.com/Luanmonteiro1/CRUD"
+    },
+    {
+        id:5,
+        name: "Pokedex",
+        img: pokedD,
+        description: "Criada pela API Pokemon",
+        link: "https://pokedex-lemon-phi.vercel.app/",
+        gitLink: "https://github.com/Luanmonteiro1/pokedex"
     }
     
 ]

@@ -1,5 +1,5 @@
 .listProjects{ 
-    width: 100%;
+    width: 99%;
     height: 19.625rem;
     border: 2px solid #ffff;
     border-radius: 8px;
@@ -31,6 +31,10 @@
     gap: 10px;
     flex-direction: column;
     align-items: center;
+
+    button:hover{
+        color: red;
+    }
 }
 
 .listProjects:hover{
