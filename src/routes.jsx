@@ -6,7 +6,6 @@ import { Container } from "./components/Container";
 import { TechSection } from "./components/pages/TechSection/indedx";
 import { ProjectSection } from "./components/pages/ProjectSection";
 
-
 export function AppRoutes() {
   return (
     <BrowserRouter>

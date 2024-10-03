@@ -8,12 +8,13 @@ export const HomePage = () => {
 
   const handleDownloadClick = () => {
     window.open("https://tinyurl.com/3w7hxsbj", "_blank");
-
   };
   return (
     <section className="container">
       <div className={styles.bannerImg}>
-        <div className={`${styles.infosMe} animate__animated animate__backInLeft`}>
+        <div
+          className={`${styles.infosMe} animate__animated animate__backInLeft`}
+        >
           <h1 className="tittle1">Olá, Seja bem vindo ao meu portfólio</h1>
           <p className="paragraph">
             Me chamo Sávio Luan e sou <strong>desenvolvedor full stack </strong>

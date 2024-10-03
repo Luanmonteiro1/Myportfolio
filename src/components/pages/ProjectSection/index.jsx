@@ -3,9 +3,7 @@ import { projects } from "../../../data/projects";
 import { ProjectCard } from "./ProjectList";
 import styles from "./style.module.scss";
 
-
 export const ProjectSection = () => {
-
   return (
     <section id="projetos" className="container">
       <div className="animate__animated animate__backInLeft">

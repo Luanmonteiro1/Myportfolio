@@ -1,4 +1,4 @@
-import styles from "./style.module.css"
+import styles from "./style.module.css";
 
 export const TechCard = ({ img, title }) => {
   return (
@@ -10,4 +10,3 @@ export const TechCard = ({ img, title }) => {
     </li>
   );
 };
-

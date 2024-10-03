@@ -9,7 +9,9 @@ export const ProjectCard = ({ tittle, description, image, link, gitLink }) => {
     window.open(gitLink, "_blank");
   };
   return (
-    <li className={`${styles.listProjects} animate__animated animate__backInLeft`}>
+    <li
+      className={`${styles.listProjects} animate__animated animate__backInLeft`}
+    >
       <div className={styles.navCard}>
         <img src={image} alt="" />
         <h3 className="tittle3">{tittle}</h3>

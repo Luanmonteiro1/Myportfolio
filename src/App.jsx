@@ -1,13 +1,10 @@
-import { AppRoutes } from "./routes"
+import { AppRoutes } from "./routes";
 import "./styles/index.css";
-import 'animate.css';
+import "animate.css";
 
 
 function App() {
-  return (
-    <AppRoutes/>
-  )
+  return <AppRoutes />;
 }
 
-
-export default App
+export default App;
